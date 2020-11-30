@@ -1,0 +1,50 @@
+<html>
+    <had>
+        <meta charset="utf-8">  
+        <title>Contato</title>
+        <link rel="stylesheet" href="estilo.css"/>
+    </had>
+
+    <body>
+                   
+            <div id="Menu">
+                <img src="Imagens\Logo.png" id="Logo" width="90" height="65"/>
+                <div id="MenuLink"><a href='index.html'>Home</a></div>
+                <div id="MenuLink"><a href='sobre.html'>Sobre</a></div>
+                <div id="MenuLink"><a href='contato.html'>Contato</a></div>
+                <div id="MenuLink"><a href='saiba-mais.html'>Saiba mais</a></div>
+
+            </div>
+            
+            <div id="Conteudo">
+
+                <form action="http://formmail.uni5.net/formmail.cgi" method="POST"> 
+                 <input type="hidden" name="recipient" value="ivanildo.dias@hotmail.com.br"> <!-- Pode ser qualquer endereço de email -->
+                 <input type="hidden" name="redirect" value="Index.html"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                 <input type="hidden" name="subject" value="Isira uma mensagem">  <!-- Assunto da mensagem -->
+                 <input type="hidden" name="email" value="ivanildo.dias@hotmail.com.br">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+                 
+                 <p> 
+                 Nome:<br /> 
+                 <input type="text" size="30" name="nome"> 
+                 </p>   
+                 
+                 <p>
+                 E-mail:<br /> 
+                 <input type="text" size="30" name="replyto"> 
+                 </p>   
+                 
+                 <p> 
+                 Comentários:<br /> 
+                 <input type="text" size="30" height="90"name="Comentarios"> 
+                 </p>   
+                 
+                 <p> 
+                 <input type="submit" name="BTEnvia" value="Enviar"> 
+                 <input type="reset" name="BTApaga" value="Apagar"> </p> 
+                 
+                 </form>
+
+            </div>
+    </body>
+</html>

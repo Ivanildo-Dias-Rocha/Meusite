@@ -1,0 +1,145 @@
+body{
+    background-color: slategrey;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+}
+
+#Conteudo{
+    background-color:white;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-decoration: unset;
+}
+
+#Menu{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    box-shadow: gray 2px 2px 5px;
+}
+
+#NoticiPrincipal{
+width:100%;
+height:100%;
+position:absolute;
+top:50%;
+left:50%;
+margin-top:-50px;
+margin-left:-50px;
+}
+
+#Produtos{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.ProdutosDestaque{
+    border: black 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: gray 2px 2px 5px;
+}
+
+#MenuLink a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 18;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#MenuLink{
+    float: left;
+}
+
+#Descricao{
+    padding-top: 60px;
+    font-family: arial;
+    font-size: 10px;
+    line-height: 10px;   
+    text-align: justify;
+}
+
+#Capa-Perfil{
+    padding-top: 30px;
+    float: left;
+}
+
+#Introducao-Perfil{
+    padding-top: 25px;
+    padding-left: 20%;
+}
+
+#Rodape{
+    padding-top: 40px;
+}
+
+#Capa-Noticia{
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+    height: 125px; 
+    border-radius: 20px;   
+}
+
+#NoticiaCovid{
+    padding-left: 20%;
+}
+
+#Titulo-Noticia{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    size: 24;
+}
+
+p{
+    font-family: arial;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+h1{
+    font-family: arial;
+    color: Navy;
+}
+
+#Video{
+    width: 100%;
+    height: 100%; 
+}
+
+#ImgCapa {
+    width: 100%;
+    height: 100%; 
+}
+
+#CapaNoticia01 {
+    width: 100%;
+    height: 100%; 
+}
+
+#CapaNoticia02 {
+    width: 100%;
+    height: 100%; 
+}
+
+#CapaNoticia03 {
+    width: 100%;
+    height: 100%; 
+}
+
+#CapaNoticia04 {
+    width: 100%;
+    height: 100%; 
+}
